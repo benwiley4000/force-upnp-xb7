@@ -18,7 +18,7 @@ You can download the code locally and run it, or set it up in a docker container
 
 The idea is to only run the container when you need to enable UPnP again. As soon as the script runs, the container stops.
 
-Otherwise, you can just run `node force-upnp.js` file manually. NodeJS is required (this is handled by the docker setup if Docker is used).
+Otherwise, you can just run `node force-upnp.js` file manually. Before running, you need to install NodeJS then run `npm install` to get dependencies, before running the script.
 
 ## How to ensure this is accessible when needed
 
