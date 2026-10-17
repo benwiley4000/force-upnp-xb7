@@ -1,0 +1,12 @@
+services:
+  upnp:
+    build: .
+    container_name: force-upnp
+    network_mode: host
+    working_dir: /app
+    volumes:
+      - .:/app
+      - /app/node_modules
+    env_file:
+      - .env
+    command: node force-upnp.js
