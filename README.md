@@ -1,4 +1,4 @@
-# force-upnp
+# force-upnp-xb7
 
 This is a script to run on the local network of your Xfinity XB7 (also called Helix Fi 2 on Vidéotron's network), which forces UPnP to the enabled state.
 
