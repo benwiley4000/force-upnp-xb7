@@ -12,6 +12,8 @@ If UPnP is switched off for some reason, the port forwards are wiped. And for so
 
 ## How to setup
 
+***Before running***, copy the file **.env.example** to a new file called **.env**, and change the password to whatever your "admin" account password is for your router. This file is ignored by git. I also suggest you ignore it for any cloud backups, so your password isn't being copied into cloud storage.
+
 You can download the code locally and run it, or set it up in a docker container. In Synology container manager, if you copy the project to a folder under /volume1/docker and open the docker-compose.yaml file when creating a new project, it will work automatically.
 
 The idea is to only run the container when you need to enable UPnP again. As soon as the script runs, the container stops.
